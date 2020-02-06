@@ -697,6 +697,34 @@ data4 = {
         url: "http://southamerica-east1-gce.cloudharmony.net/"
     }]
 };
+// Page #5 - China Node
+data5 = {
+    Aliyun_cn: [{
+        name: "华东 1 (杭州)",
+        url: "http://oss-cn-hangzhou.aliyuncs.com/",
+    }, {
+        name: "华东 2 (上海)",
+        url: "http://oss-cn-shanghai.aliyuncs.com/",
+    }, {
+        name: "华北 1 (青岛)",
+        url: "http://oss-cn-qingdao.aliyuncs.com/",
+    }, {
+        name: "华北 2 (北京)",
+        url: "http://oss-cn-beijing.aliyuncs.com/",
+    }, {
+        name: "华北 3 (张家口)",
+        url: "http://oss-cn-zhangjiakou.aliyuncs.com/",
+    }, {
+        name: "华北 5 (呼和浩特)",
+        url: "http://oss-cn-huhehaote.aliyuncs.com/",
+    }, {
+        name: "华南 1 (深圳)",
+        url: "http://oss-cn-shenzhen.aliyuncs.com/",
+    }, {
+        name: "香港",
+        url: "http://oss-cn-hongkong.aliyuncs.com/",
+    }]
+};
 //
 //
 if(location.hash=="#page2") {
@@ -707,6 +735,9 @@ else if(location.hash=="#page3") {
 }
 else if(location.hash=="#page4") {
     data = data4;
+}
+else if(location.hash=="#page5") {
+    data = data5;
 }
 else {
     data = data1;
